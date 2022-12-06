@@ -1,4 +1,5 @@
 ﻿//#define OVERRIDE
+using System.Text.RegularExpressions;
 
 namespace AdventOfCodeUtilities
 {
@@ -53,6 +54,17 @@ namespace AdventOfCodeUtilities
         {
             var inputFile = File.ReadAllText(filename);
             return inputFile;
+        }
+
+        static public MatchCollection RegexMatch(string input, string pattern, bool multiline = false)
+        {
+            RegexOptions options;
+            if (multiline)
+                options = RegexOptions.Multiline;
+            else
+                options = RegexOptions.Singleline;
+
+            return Regex.Matches(input, pattern, options);
         }
     }
 }
