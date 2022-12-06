@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_1_No_Time_for_a_Taxicab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_2_Bathroom_Security", "Day_2_Bathroom_Security\Day_2_Bathroom_Security.csproj", "{D31E8667-64F3-4F8D-B3F9-BD75A962E02C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_3_Squares_With_Three_Sides", "Day_3_Squares_With_Three_Sides\Day_3_Squares_With_Three_Sides.csproj", "{2E0D3F8E-4A4A-4836-B64F-EBAEEF711B22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D31E8667-64F3-4F8D-B3F9-BD75A962E02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D31E8667-64F3-4F8D-B3F9-BD75A962E02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D31E8667-64F3-4F8D-B3F9-BD75A962E02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0D3F8E-4A4A-4836-B64F-EBAEEF711B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0D3F8E-4A4A-4836-B64F-EBAEEF711B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0D3F8E-4A4A-4836-B64F-EBAEEF711B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0D3F8E-4A4A-4836-B64F-EBAEEF711B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

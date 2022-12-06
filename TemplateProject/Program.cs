@@ -1,4 +1,5 @@
 ﻿using AdventOfCodeUtilities;
+using System.Text.RegularExpressions;
 
 List<string> inputList = AoCUtilities.GetInputLines();
 
