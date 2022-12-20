@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateProject", "Template
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoCUtilities", "AoCUtilities\AoCUtilities.csproj", "{A33E73EE-AD43-4AE7-8074-8F981ED807FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_1_No_Time_for_a_Taxicab", "Day_1_No_Time_for_a_Taxicab\Day_1_No_Time_for_a_Taxicab.csproj", "{AD18954C-3394-4AB1-BEF5-02E1AF9512EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_01_No_Time_for_a_Taxicab", "Day_01_No_Time_for_a_Taxicab\Day_01_No_Time_for_a_Taxicab.csproj", "{AD18954C-3394-4AB1-BEF5-02E1AF9512EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_2_Bathroom_Security", "Day_2_Bathroom_Security\Day_2_Bathroom_Security.csproj", "{D31E8667-64F3-4F8D-B3F9-BD75A962E02C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_02_Bathroom_Security", "Day_02_Bathroom_Security\Day_02_Bathroom_Security.csproj", "{D31E8667-64F3-4F8D-B3F9-BD75A962E02C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_3_Squares_With_Three_Sides", "Day_3_Squares_With_Three_Sides\Day_3_Squares_With_Three_Sides.csproj", "{2E0D3F8E-4A4A-4836-B64F-EBAEEF711B22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_03_Squares_With_Three_Sides", "Day_03_Squares_With_Three_Sides\Day_03_Squares_With_Three_Sides.csproj", "{2E0D3F8E-4A4A-4836-B64F-EBAEEF711B22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
