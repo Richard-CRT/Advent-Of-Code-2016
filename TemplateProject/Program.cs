@@ -1,7 +1,7 @@
 ﻿using AdventOfCodeUtilities;
 using System.Text.RegularExpressions;
 
-List<string> inputList = AoCUtilities.GetInputLines();
+List<string> inputList = AoC.GetInputLines();
 
 void P1()
 {

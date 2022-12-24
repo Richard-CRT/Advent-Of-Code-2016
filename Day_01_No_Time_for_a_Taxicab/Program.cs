@@ -1,6 +1,6 @@
 ﻿using AdventOfCodeUtilities;
 
-List<string> inputList = AoCUtilities.GetInputLines();
+List<string> inputList = AoC.GetInputLines();
 List<string> Instructions = inputList[0].Split(", ").ToList();
 
 HashSet<(int, int)> history = new HashSet<(int, int)>();

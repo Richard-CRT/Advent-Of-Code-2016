@@ -1,6 +1,6 @@
 ﻿using AdventOfCodeUtilities;
 
-List<string> inputList = AoCUtilities.GetInputLines();
+List<string> inputList = AoC.GetInputLines();
 
 int[,] KeypadMapP1 = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 char[,] KeypadMapP2 = new char[5, 5] { { ' ', ' ', '1', ' ', ' ' }, { ' ', '2', '3', '4', ' ' }, { '5', '6', '7', '8', '9' }, { ' ', 'A', 'B', 'C', ' ' }, { ' ', ' ', 'D', ' ', ' ' }, };

@@ -1,8 +1,8 @@
 ﻿using AdventOfCodeUtilities;
 using System.Text.RegularExpressions;
 
-List<string> inputList = AoCUtilities.GetInputLines();
-(int, int, int)[] Rows = inputList.Select(x => { Match m = AoCUtilities.RegexMatch(x, @" *(\d+) +(\d+) +(\d+)")[0]; return (int.Parse(m.Groups[1].Value), int.Parse(m.Groups[2].Value), int.Parse(m.Groups[3].Value)); }).ToArray();
+List<string> inputList = AoC.GetInputLines();
+(int, int, int)[] Rows = inputList.Select(x => { Match m = AoC.RegexMatch(x, @" *(\d+) +(\d+) +(\d+)")[0]; return (int.Parse(m.Groups[1].Value), int.Parse(m.Groups[2].Value), int.Parse(m.Groups[3].Value)); }).ToArray();
 
 void P1()
 {
