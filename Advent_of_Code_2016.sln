@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_05_How_About_a_Nice_Gam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_06_Signals_and_Noise", "Day_06_Signals_and_Noise\Day_06_Signals_and_Noise.csproj", "{A873756B-94F7-44D8-852D-040B970047DC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_07_Internet_Protocol_Version_7", "Day_07_Internet_Protocol_Version_7\Day_07_Internet_Protocol_Version_7.csproj", "{D42DE01D-5AC2-4831-A45A-FF5A1BF71191}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A873756B-94F7-44D8-852D-040B970047DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A873756B-94F7-44D8-852D-040B970047DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A873756B-94F7-44D8-852D-040B970047DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42DE01D-5AC2-4831-A45A-FF5A1BF71191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42DE01D-5AC2-4831-A45A-FF5A1BF71191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42DE01D-5AC2-4831-A45A-FF5A1BF71191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42DE01D-5AC2-4831-A45A-FF5A1BF71191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
