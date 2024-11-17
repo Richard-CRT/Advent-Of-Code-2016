@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_10_Balance_Bots", "Day_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_11_Radioisotope_Thermoelectric_Generators", "Day_11_Radioisotope_Thermoelectric_Generators\Day_11_Radioisotope_Thermoelectric_Generators.csproj", "{89A083C3-5582-4983-AF08-C2F5C690F3E1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_12_Leonardos_Monorail", "Day_12_Leonardos_Monorail\Day_12_Leonardos_Monorail.csproj", "{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{89A083C3-5582-4983-AF08-C2F5C690F3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A083C3-5582-4983-AF08-C2F5C690F3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A083C3-5582-4983-AF08-C2F5C690F3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
