@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_13_A_Maze_of_Twisty_Lit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_14_One-Time_Pad", "Day_14_One-Time_Pad\Day_14_One-Time_Pad.csproj", "{945103D3-B364-41D6-B905-8D1A603D0A6A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_15_Timing_is_Everything", "Day_15_Timing_is_Everything\Day_15_Timing_is_Everything.csproj", "{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{945103D3-B364-41D6-B905-8D1A603D0A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{945103D3-B364-41D6-B905-8D1A603D0A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{945103D3-B364-41D6-B905-8D1A603D0A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
