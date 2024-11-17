@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_14_One-Time_Pad", "Day_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_15_Timing_is_Everything", "Day_15_Timing_is_Everything\Day_15_Timing_is_Everything.csproj", "{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_16_Dragon_Checksum", "Day_16_Dragon_Checksum\Day_16_Dragon_Checksum.csproj", "{54C9CF12-E3A1-409E-992C-717F8F7D0424}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1005E4B1-BCD2-4106-9308-4B4D34B62FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C9CF12-E3A1-409E-992C-717F8F7D0424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C9CF12-E3A1-409E-992C-717F8F7D0424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C9CF12-E3A1-409E-992C-717F8F7D0424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C9CF12-E3A1-409E-992C-717F8F7D0424}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
