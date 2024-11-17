@@ -5,6 +5,7 @@ import re
 import uuid
 import json
 import browser_cookie3
+import html
 
 year = 2016
 sln_file = f"Advent_of_Code_{year}.sln"
@@ -82,12 +83,12 @@ def main():
                 continue
             else:
                 break
-        html = str(resp.text)
+        html_source = str(resp.text)
         open_del = "<h2>--- "
         close_del = " ---</h2>"
-        open_h2 = html.index(open_del)
-        close_h2 = html.index(close_del)
-        title = html[open_h2 + len(open_del):close_h2]
+        open_h2 = html_source.index(open_del)
+        close_h2 = html_source.index(close_del)
+        title = html.unescape(html_source[open_h2 + len(open_del):close_h2])
         print(f"Original title is `{title}`")
         renamed_title = title.replace(" ", "_")
         keep_chars = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-&")
