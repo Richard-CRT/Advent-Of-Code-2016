@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_11_Radioisotope_Thermoe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_12_Leonardos_Monorail", "Day_12_Leonardos_Monorail\Day_12_Leonardos_Monorail.csproj", "{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_13_A_Maze_of_Twisty_Little_Cubicles", "Day_13_A_Maze_of_Twisty_Little_Cubicles\Day_13_A_Maze_of_Twisty_Little_Cubicles.csproj", "{831E12BE-3D78-4F01-AC0D-8E07F1F39D3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F76A5EE1-EF56-47D0-8009-A62B9BCD7556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831E12BE-3D78-4F01-AC0D-8E07F1F39D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831E12BE-3D78-4F01-AC0D-8E07F1F39D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831E12BE-3D78-4F01-AC0D-8E07F1F39D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831E12BE-3D78-4F01-AC0D-8E07F1F39D3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
