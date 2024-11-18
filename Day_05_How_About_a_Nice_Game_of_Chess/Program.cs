@@ -14,7 +14,7 @@ void P1()
         {
             string comb = doorId + i;
             i++;
-            string md5 = CreateMD5(comb);
+            string md5 = AoC.MD5(comb);
             if (md5[0..5] == "00000")
             {
                 password += md5[5];
@@ -39,7 +39,7 @@ void P2()
         {
             string comb = doorId + i;
             i++;
-            string md5 = CreateMD5(comb);
+            string md5 = AoC.MD5(comb);
             if (md5[0..5] == "00000")
             {
                 int index;
@@ -61,23 +61,3 @@ void P2()
 
 P1();
 P2();
-
-static string CreateMD5(string input)
-{
-    // Use input string to calculate MD5 hash
-    using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
-    {
-        byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
-        byte[] hashBytes = md5.ComputeHash(inputBytes);
-
-        return Convert.ToHexString(hashBytes); // .NET 5 +
-
-        // Convert the byte array to hexadecimal string prior to .NET 5
-        // StringBuilder sb = new System.Text.StringBuilder();
-        // for (int i = 0; i < hashBytes.Length; i++)
-        // {
-        //     sb.Append(hashBytes[i].ToString("X2"));
-        // }
-        // return sb.ToString();
-    }
-}

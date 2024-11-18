@@ -15,11 +15,11 @@ void P12(bool p2=false)
     while (index < indexWhenKeysHit64 + 1000)
     {
         string trial = salt + index;
-        string potential_key = CreateMD5(trial).ToLower();
+        string potential_key = AoC.MD5(trial).ToLower();
 
         if (p2)
             for (int i = 0; i < 2016; i++)
-                potential_key = CreateMD5(potential_key).ToLower();
+                potential_key = AoC.MD5(potential_key).ToLower();
 
         HashSet<char> fiveOfKindChars = new();
 
@@ -75,35 +75,8 @@ void P12(bool p2=false)
     Console.ReadLine();
 }
 
-void P2()
-{
-    int result = 0;
-    Console.WriteLine(result);
-    Console.ReadLine();
-}
-
 P12();
 P12(true);
-
-static string CreateMD5(string input)
-{
-    // Use input string to calculate MD5 hash
-    using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
-    {
-        byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
-        byte[] hashBytes = md5.ComputeHash(inputBytes);
-
-        return Convert.ToHexString(hashBytes); // .NET 5 +
-
-        // Convert the byte array to hexadecimal string prior to .NET 5
-        // StringBuilder sb = new System.Text.StringBuilder();
-        // for (int i = 0; i < hashBytes.Length; i++)
-        // {
-        //     sb.Append(hashBytes[i].ToString("X2"));
-        // }
-        // return sb.ToString();
-    }
-}
 
 class Key
 {
