@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_19_An_Elephant_Named_Jo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_20_Firewall_Rules", "Day_20_Firewall_Rules\Day_20_Firewall_Rules.csproj", "{B0000849-FEC9-4073-9EF6-260A524E6E2E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_21_Scrambled_Letters_and_Hash", "Day_21_Scrambled_Letters_and_Hash\Day_21_Scrambled_Letters_and_Hash.csproj", "{6963AED1-A4B2-47B7-BC31-425822FF0B04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{B0000849-FEC9-4073-9EF6-260A524E6E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0000849-FEC9-4073-9EF6-260A524E6E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0000849-FEC9-4073-9EF6-260A524E6E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6963AED1-A4B2-47B7-BC31-425822FF0B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6963AED1-A4B2-47B7-BC31-425822FF0B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6963AED1-A4B2-47B7-BC31-425822FF0B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6963AED1-A4B2-47B7-BC31-425822FF0B04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
