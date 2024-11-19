@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_16_Dragon_Checksum", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_17_Two_Steps_Forward", "Day_17_Two_Steps_Forward\Day_17_Two_Steps_Forward.csproj", "{9B304212-C92C-41EA-AC36-6DF02441BE36}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_18_Like_a_Rogue", "Day_18_Like_a_Rogue\Day_18_Like_a_Rogue.csproj", "{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{9B304212-C92C-41EA-AC36-6DF02441BE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B304212-C92C-41EA-AC36-6DF02441BE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B304212-C92C-41EA-AC36-6DF02441BE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
