@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_17_Two_Steps_Forward", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_18_Like_a_Rogue", "Day_18_Like_a_Rogue\Day_18_Like_a_Rogue.csproj", "{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_19_An_Elephant_Named_Joseph", "Day_19_An_Elephant_Named_Joseph\Day_19_An_Elephant_Named_Joseph.csproj", "{E6F938F1-3E8A-460D-A55D-EE2690DFCC5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BC6D375-C9E8-4309-8DEC-CD67ECCCE321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F938F1-3E8A-460D-A55D-EE2690DFCC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F938F1-3E8A-460D-A55D-EE2690DFCC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F938F1-3E8A-460D-A55D-EE2690DFCC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F938F1-3E8A-460D-A55D-EE2690DFCC5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
