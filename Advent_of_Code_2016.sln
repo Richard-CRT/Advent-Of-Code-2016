@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_20_Firewall_Rules", "Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_21_Scrambled_Letters_and_Hash", "Day_21_Scrambled_Letters_and_Hash\Day_21_Scrambled_Letters_and_Hash.csproj", "{6963AED1-A4B2-47B7-BC31-425822FF0B04}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_22_Grid_Computing", "Day_22_Grid_Computing\Day_22_Grid_Computing.csproj", "{BC3A6F92-DCCD-41CD-981C-5D4030EC5B95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{6963AED1-A4B2-47B7-BC31-425822FF0B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6963AED1-A4B2-47B7-BC31-425822FF0B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6963AED1-A4B2-47B7-BC31-425822FF0B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3A6F92-DCCD-41CD-981C-5D4030EC5B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3A6F92-DCCD-41CD-981C-5D4030EC5B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3A6F92-DCCD-41CD-981C-5D4030EC5B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3A6F92-DCCD-41CD-981C-5D4030EC5B95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
