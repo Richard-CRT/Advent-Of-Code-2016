@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_22_Grid_Computing", "Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_23_Safe_Cracking", "Day_23_Safe_Cracking\Day_23_Safe_Cracking.csproj", "{F8095FFB-08FD-43AE-B9F7-BDF9A19A0DB8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_24_Air_Duct_Spelunking", "Day_24_Air_Duct_Spelunking\Day_24_Air_Duct_Spelunking.csproj", "{B06258DF-44FD-48DC-BD60-2CA3102BF2B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{F8095FFB-08FD-43AE-B9F7-BDF9A19A0DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8095FFB-08FD-43AE-B9F7-BDF9A19A0DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8095FFB-08FD-43AE-B9F7-BDF9A19A0DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06258DF-44FD-48DC-BD60-2CA3102BF2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06258DF-44FD-48DC-BD60-2CA3102BF2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06258DF-44FD-48DC-BD60-2CA3102BF2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06258DF-44FD-48DC-BD60-2CA3102BF2B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
